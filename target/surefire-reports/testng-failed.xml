@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.browserTitle.ChromeTest2">
+        <methods>
+          <include name="testinChrome1Docker"/>
+        </methods>
+      </class> <!-- com.browserTitle.ChromeTest2 -->
+      <class name="com.browserTitle.ChromeTest1">
+        <methods>
+          <include name="startFile"/>
+          <include name="tearDown"/>
+          <include name="testinChrome1Docker"/>
+        </methods>
+      </class> <!-- com.browserTitle.ChromeTest1 -->
+      <class name="com.browserTitle.EdgeTest2">
+        <methods>
+          <include name="testinDockerFireFoxTest2"/>
+        </methods>
+      </class> <!-- com.browserTitle.EdgeTest2 -->
+      <class name="com.browserTitle.EdgeTest1">
+        <methods>
+          <include name="testinFireFox1Docker"/>
+        </methods>
+      </class> <!-- com.browserTitle.EdgeTest1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

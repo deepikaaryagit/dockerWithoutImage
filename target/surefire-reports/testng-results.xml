@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-04T13:48:01 PDT" name="Suite" finished-at="2022-11-04T13:48:46 PDT" duration-ms="45604">
+    <groups>
+    </groups>
+    <test started-at="2022-11-04T13:48:01 PDT" name="Test" finished-at="2022-11-04T13:48:46 PDT" duration-ms="45604">
+      <class name="com.browserTitle.ChromeTest2">
+        <test-method signature="testinChrome1Docker()[pri:0, instance:com.browserTitle.ChromeTest2@4b8d604b]" started-at="2022-11-04T13:48:31 PDT" name="testinChrome1Docker" finished-at="2022-11-04T13:48:37 PDT" duration-ms="6599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testinChrome1Docker -->
+      </class> <!-- com.browserTitle.ChromeTest2 -->
+      <class name="com.browserTitle.EdgeTest2">
+        <test-method signature="testinDockerFireFoxTest2()[pri:0, instance:com.browserTitle.EdgeTest2@76494737]" started-at="2022-11-04T13:48:01 PDT" name="testinDockerFireFoxTest2" finished-at="2022-11-04T13:48:19 PDT" duration-ms="18338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testinDockerFireFoxTest2 -->
+      </class> <!-- com.browserTitle.EdgeTest2 -->
+      <class name="com.browserTitle.ChromeTest1">
+        <test-method is-config="true" signature="startFile()[pri:0, instance:com.browserTitle.ChromeTest1@5fb759d6]" started-at="2022-11-04T13:47:17 PDT" name="startFile" finished-at="2022-11-04T13:48:01 PDT" duration-ms="43202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startFile -->
+        <test-method signature="testinChrome1Docker()[pri:0, instance:com.browserTitle.ChromeTest1@5fb759d6]" started-at="2022-11-04T13:48:19 PDT" name="testinChrome1Docker" finished-at="2022-11-04T13:48:31 PDT" duration-ms="11715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testinChrome1Docker -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserTitle.ChromeTest1@5fb759d6]" started-at="2022-11-04T13:48:46 PDT" name="tearDown" finished-at="2022-11-04T13:48:46 PDT" duration-ms="62" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.browserTitle.ChromeTest1 -->
+      <class name="com.browserTitle.EdgeTest1">
+        <test-method signature="testinFireFox1Docker()[pri:0, instance:com.browserTitle.EdgeTest1@5e7cd6cc]" started-at="2022-11-04T13:48:37 PDT" name="testinFireFox1Docker" finished-at="2022-11-04T13:48:46 PDT" duration-ms="8893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testinFireFox1Docker -->
+      </class> <!-- com.browserTitle.EdgeTest1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
